@@ -14,7 +14,9 @@ const mobileLink = `https://www.tinkoff.ru/mybank/payments/qr-pay/AD10004R59R25V
 const marketLink = `https://apps.apple.com/ru/app/ipoteka-retail/id1637057203`;
 
 window.location.href = mobileLink;
-//window.location.href = marketLink;
+setTimeout(() => {
+    window.location.href = marketLink;
+}, 100);
 </script>
 </body>
 </html>
